@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.po {
+  background-image: url(../img/Ornament.svg);
+  height: 900px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 125px;
+  color: white;
+  padding-top: 29px;
+}
+
+.logo {
+  display: flex;
+  gap: 10px;
+  margin-right: 120px;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.parts {
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.login {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.login button {
+  width: 129px;
+  height: 42px;
+  border: none;
+  border-radius: 40px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.texts {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.texts h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80px;
+  color: white;
+}
+
+.texts p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: rgba(139, 139, 139, 1);
+  margin-top: -10px;
+}
+
+.texts button {
+  width: 180px;
+  height: 57px;
+  background-color: rgba(168, 255, 53, 1);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  border: none;
+  border-radius: 40px;
+  margin-top: 40px;
+}
+
+.btnimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.sign {
+  margin-top: 60px;
+  rotate: 14deg;
+
+  p {
+    font-family: Pacifico;
+    text-transform: capitalize;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 14px;
+    color: white;
+  }
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+  color: white;
+  position: relative;
+}
+
+.icons div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 341px;
+  height: 82px;
+  position: absolute;
+  justify-content: center;
+  background-color: rgba(24, 24, 24, 1);
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.icons p {
+  background: linear-gradient(270deg, #161515 1%, white 40%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.twiter {
+  rotate: -4deg;
+  margin-right: 600px;
+  z-index: 1;
+}
+
+.pisart {
+  rotate: 4deg;
+  margin-right: 160px;
+  margin-top: 120px;
+}
+
+.facebook {
+  rotate: -2deg;
+  margin-left: 250px;
+  z-index: 1;
+}
+
+.ball {
+  margin-left: 700px;
+  margin-top: 120px;
+  rotate: 4deg;
+}
+
+.main {
+  background-color: rgba(168, 255, 53, 1);
+  width: 1440px;
+  height: 742px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.main h1 {
+  font-weight: 700;
+  font-size: 72px;
+  list-style: 80px;
+}
+
+.slove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left,
+.right {
+  rotate: 4deg;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.bigbox {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.find {
+  display: flex;
+  background-color: rgba(3, 3, 3, 1);
+  width: 340px;
+  height: 82px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.find p {
+  background: linear-gradient(270deg, #161515 1%, white 40%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.lorem {
+  margin-top: 100px;
+}
